@@ -119,7 +119,7 @@ norm_type = int(setup_config["norm_type"])
 max_norm = int(setup_config["max_norm"])
 
 model = Net( vocab_size, embedding_dim, norm_type, max_norm, window_size)
-model.load_state_dict(torch.load("/content/sample_data/model_lstm.pth"))
+model.load_state_dict(torch.load("model_lstm.pth"))
 model.eval()
 
 
