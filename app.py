@@ -145,7 +145,7 @@ description = "LSTM based item recomendation."
 article = "<p style='text-align: center'></p>"
 
 iface = gr.Interface(fn=process_text, 
-                     inputs="text", 
+                     inputs=gr.Textbox(placeholder="Audio-Visual, Electrical, Heating, Interior Shutters, Low Voltage"), 
                      outputs="text",
                      title=title,
                      description=description,
