@@ -103,7 +103,7 @@ with open("setup_config.json") as f:
 with open("ch2ix.json") as f:
     ch2ix = json.load(f)
 
-with open("sample_data/vocab.json") as f:
+with open("vocab.json") as f:
     vocab = json.load(f)
 
 with open("code_to_text.json") as f:
